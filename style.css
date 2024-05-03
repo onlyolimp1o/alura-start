@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color: #4a7cd8;
     color: #ffffff;
@@ -28,8 +33,13 @@ body{
     background-image: linear-gradient(#4a7cd8,#ffff);
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .escola-div-conteudo{
     width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
